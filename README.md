@@ -2,9 +2,9 @@
 
 Браузерный 3D-раннер по Иннополису: собирайте верные ответы и объезжайте неверные.
 
-Игра: https://f42af42a.github.io/rover/
+Игра: https://plairpro.github.io/rover/
 
-Версия Почтатеха: https://f42af42a.github.io/rover/pochtatech/
+Версия Почтатеха: https://plairpro.github.io/pochtatech/
 
 В обеих версиях финальное здание отмечено анимированными лучами. Версия Почтатеха использует белый и синий (#0055ff); точный фирменный оттенок ожидает предоставленного образца.
 
@@ -19,7 +19,7 @@ npm run dev
 
 ## Структура
 
-- `pochtatech/index.html` — отдельная бело-синяя версия, музыка из `dist/assets/`.
+- `pochtatech/index.html` — перенаправление на https://plairpro.github.io/pochtatech/. Ресурсы новой версии остаются в `pochtatech/assets/` и `dist/assets/`.
 - `dist/index.html` — сцена Three.js, интерфейс и механика.
 - `dist/assets/rover-music.mp3` — предоставленная владельцем фоновая мелодия, сжатая до mono MP3 32 kbit/s, 22.05 kHz (~616 КБ).
 - Корневой `index.html` перенаправляет GitHub Pages на `dist/`.
